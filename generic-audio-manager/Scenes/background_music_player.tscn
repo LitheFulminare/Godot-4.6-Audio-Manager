@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://bkqds7cd7rur0"]
+
+[sub_resource type="AudioStreamInteractive" id="AudioStreamInteractive_8gy7p"]
+
+[node name="BackgroundMusicPlayer" type="AudioStreamPlayer" unique_id=1338629581]
+stream = SubResource("AudioStreamInteractive_8gy7p")
+bus = &"Music"
